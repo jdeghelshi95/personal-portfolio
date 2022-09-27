@@ -1,0 +1,8 @@
+{
+  "../components/Portfolio.jsx -> react-modal-video": {
+    "id": "../components/Portfolio.jsx -> react-modal-video",
+    "files": [
+      "static/chunks/node_modules_react-modal-video_lib_index_js.js"
+    ]
+  }
+}
