@@ -12,8 +12,8 @@ const Footer = () => {
 
                     {/* Copyright */}
                     <p>
-                        &copy; Rokstar {new Date().getFullYear()}, Made with <AiFillHeart
-                        className="inline text-red-600"/> By Divergent Studio.
+                        &copy; Joshua Eghelshi {new Date().getFullYear()}, Made with <AiFillHeart
+                        className="inline text-red-600"/> Graceful Designs.
                     </p>
                 </div>
             </div>

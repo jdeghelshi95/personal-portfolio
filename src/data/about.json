@@ -1,31 +1,20 @@
 {
   "name": "Joshua Eghelshi",
-  "bio": "<p>For instance, whenever I go back to the guest house during the morning to copy out the contract, these gentlemen are always still sitting there eating their breakfasts. I ought to just try that with my boss; I'd get kicked out on the spot.</p> <p>But who knows, maybe that would be the best thing for me. He'd fall right off his desk! And it's a funny sort of business to be sitting up there at your desk, <br/> talking down at your subordinates. I ought to just try that witht my boss; I'd get kicked out on the spot. But who knows, maybe that would be the best thing for me. He'd fall right off his desk! And it's a funny sort of business to be sitting up there at your desk, talking down at your subordinates.</p>",
+  "bio": "<p>My name is Joshua Eghelshi, a Software Engineer and Proud father of a very active 4 year old. I am passionate in what I do and have a feverish drive to always look for creative solutions when faced with a challenge. Wether it be making easy to use and modern websites to verastile scaling backends. I always try and do my best to make sure the client's vision is fullfilled and most important of all the consumer has a seemless experiance. </p>",
   "thumb": "about-left-thumb.jpg",
   "socialMedia": [
+
     {
       "id": 1,
-      "media": "facebook",
-      "icon": "FaFacebookF",
-      "link": "https://fb.com/username"
+      "media": "linkedin",
+      "icon": "FaLinkedinIn",
+      "link": "https://www.linkedin.com/in/joshuaeghelshi/"
     },
     {
       "id": 2,
-      "media": "twitter",
-      "icon": "FaTwitter",
-      "link": "https://twitter.com/username"
-    },
-    {
-      "id": 3,
-      "media": "linkedin",
-      "icon": "FaLinkedinIn",
-      "link": "https://linkedin.com/in/username"
-    },
-    {
-      "id": 4,
       "media": "github",
       "icon": "FaGithub",
-      "link": "https://github.com/username"
+      "link": "https://github.com/jdeghelshi95"
     }
   ]
 }

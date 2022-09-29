@@ -30,21 +30,5 @@
     "thumb": "04.jpg",
     "featuredVideo": false,
     "videoLink": null
-  },
-  {
-    "id": 5,
-    "title": "Portfolio 5",
-    "categories": ["web"],
-    "thumb": "05.jpg",
-    "featuredVideo": false,
-    "videoLink": null
-  },
-  {
-    "id": 6,
-    "title": "Portfolio 6",
-    "categories": ["graphics"],
-    "thumb": "06.jpg",
-    "featuredVideo": false,
-    "videoLink": null
   }
 ]
