@@ -1,34 +1,40 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills.js"
+    "static/chunks/polyfills-5cd94c89d3acac5f.js"
   ],
-  "devFiles": [
-    "static/chunks/react-refresh.js"
-  ],
-  "ampDevFiles": [
-    "static/chunks/webpack.js",
-    "static/chunks/amp.js"
-  ],
+  "devFiles": [],
+  "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/development/_buildManifest.js",
-    "static/development/_ssgManifest.js",
-    "static/development/_middlewareManifest.js"
+    "static/VsC02sKu1MzjnBDyDDrGJ/_buildManifest.js",
+    "static/VsC02sKu1MzjnBDyDDrGJ/_ssgManifest.js",
+    "static/VsC02sKu1MzjnBDyDDrGJ/_middlewareManifest.js"
   ],
   "pages": {
     "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/webpack-6ce7d5bd59e8c572.js",
+      "static/chunks/framework-8957c350a55da097.js",
+      "static/chunks/main-101cfeaa18eb0e64.js",
+      "static/chunks/17007de1-5b57abe2218c3e49.js",
+      "static/chunks/252f366e-aad9bfcc247f5225.js",
+      "static/chunks/95b64a6e-397bcf3fd2e61111.js",
+      "static/chunks/31664189-681e89c0233dded7.js",
+      "static/chunks/1bfc9850-46253fbc6277723c.js",
+      "static/chunks/d7eeaac4-396d1d8a0fb425ed.js",
+      "static/chunks/490-55a53eba8fcde948.js",
+      "static/chunks/pages/index-75948f052617bc3a.js"
     ],
     "/_app": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_app.js"
+      "static/chunks/webpack-6ce7d5bd59e8c572.js",
+      "static/chunks/framework-8957c350a55da097.js",
+      "static/chunks/main-101cfeaa18eb0e64.js",
+      "static/css/41f534c8c0d9666c.css",
+      "static/chunks/pages/_app-a80ac16c09203aa0.js"
     ],
     "/_error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_error.js"
+      "static/chunks/webpack-6ce7d5bd59e8c572.js",
+      "static/chunks/framework-8957c350a55da097.js",
+      "static/chunks/main-101cfeaa18eb0e64.js",
+      "static/chunks/pages/_error-2280fa386d040b66.js"
     ]
   },
   "ampFirstPages": []
