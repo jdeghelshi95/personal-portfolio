@@ -23,8 +23,8 @@ const Portfolios = () => {
         value === "*" ? setFilteredPortfolios(portfolios) : setFilteredPortfolios(portfolioFiltered);
     };
  
-    console.log("Portfolio", portfolios)
-    console.log(setFilteredPortfolios)
+
+
     useEffect(() => {
         console.log(portfolios)
         const filteredCategories = portfolios.map(portfolio => portfolio.categories);
