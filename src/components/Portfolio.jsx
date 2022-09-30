@@ -10,9 +10,6 @@ import getYoutubeVideoId from "../utils/getYoutubeVideoId";
 const ModalVideo = dynamic(() => import('react-modal-video'), {ssr: false});
 
 const Portfolio = ({title, thumb, featuredVideo, videoLink, link, description}) => {
-//    const [isLink, setLink] = useState()
-//    let url 
-//    url = getRootDomain(link)
 
    
    
