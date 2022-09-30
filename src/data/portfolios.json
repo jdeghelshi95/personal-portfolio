@@ -1,34 +1,61 @@
 [
   {
     "id": 1,
-    "title": "Portfolio 1",
-    "categories": ["marketing"],
-    "thumb": "01.jpg",
-    "featuredVideo": true,
-    "videoLink": "https://www.youtube.com/watch?v=Hl3ZnQp4_S0"
+    "title": "Trip-Commander",
+    "categories": ["Projects"],
+    "thumb": "001.jpg",
+    "featuredVideo": false,
+    "videoLink": null,
+    "link": "https://trip-commander.herokuapp.com/",
+    "description": "Group Project that we as a team built using Full MERN stack. We built this app to allow users to create reservations for upcoming trips and our app would run a realtime price checking api to get the cheapest possible flights from the provided dates and airport information"
   },
   {
     "id": 2,
-    "title": "Portfolio 2",
-    "categories": ["web", "marketing"],
-    "thumb": "02.jpg",
+    "title": "Tic-Tac-Toe-Ai",
+    "categories": ["Projects"],
+    "thumb": "002.jpg",
     "featuredVideo": false,
-    "videoLink": null
+    "videoLink": null,
+    "link": "https://jdeghelshi95.github.io/tic-tac-toe/",
+    "description": "Tic-Tac-Toe game with an unbeatable ai using minimax algorithm"
+
+
+    
   },
   {
     "id": 3,
-    "title": "Portfolio 3",
-    "categories": ["graphics", "web", "marketing"],
-    "thumb": "03.jpg",
+    "title": "Resy tourist",
+    "categories": ["Projects"],
+    "thumb": "004.jpg",
     "featuredVideo": false,
-    "videoLink": null
+    "videoLink": null,
+    "link": "https://resy-front-jgmj2.ondigitalocean.app/",
+    "description": "Travel reservation app that allows hosts to post their listing and coordinate stays and rentals with users"
+
+
   },
   {
     "id": 4,
-    "title": "Portfolio 4",
-    "categories": ["marketing", "graphics"],
-    "thumb": "04.jpg",
+    "title": "VideoHub",
+    "categories": ["Projects"],
+    "thumb": "003.jpg",
     "featuredVideo": false,
-    "videoLink": null
+    "videoLink": null,
+    "link": "https://videoembeds.herokuapp.com/login",
+    "description": "Fullstack app using node.js and mongodb to store users embeded links and keep all users videos in one place from any website"
+
+
+  },
+  {
+    "id": 5,
+    "title": "Resume",
+    "categories": ["Resume"],
+    "thumb": "005.jpg",
+    "featuredVideo": false,
+    "videoLink": null,
+    "link": "https://www.dropbox.com/s/fy17ij2vxmbsxw3/Joshua_Eghelshi_-_Software_Engineer.pdf?dl=0",
+    "description": "Group Project that allows Users to Save flights and get cheapest prices"
+
+
   }
 ]

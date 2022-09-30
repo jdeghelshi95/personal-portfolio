@@ -22,13 +22,15 @@ const Portfolios = () => {
 
         value === "*" ? setFilteredPortfolios(portfolios) : setFilteredPortfolios(portfolioFiltered);
     };
-
-
+ 
+    console.log("Portfolio", portfolios)
+    console.log(setFilteredPortfolios)
     useEffect(() => {
+        console.log(portfolios)
         const filteredCategories = portfolios.map(portfolio => portfolio.categories);
         const uniqueCategories = [...new Set(filteredCategories.flat())];
         setCategories(uniqueCategories);
-    }, []);
+    }, []); 
 
 
     return (
@@ -45,6 +47,7 @@ const Portfolios = () => {
                         All
                     </button>
                     {categories.map(category => (
+                        
                         <button
                             key={category}
                             data-filter={category}
@@ -63,7 +66,9 @@ const Portfolios = () => {
                             title={portfolio.title}
                             videoLink={portfolio.videoLink}
                             featuredVideo={portfolio.featuredVideo}
+                            link={portfolio.link}
                             thumb={`/images/portfolio/${portfolio.thumb}`}
+                            description={portfolio.description}
                         />
                     ))}
                 </div>

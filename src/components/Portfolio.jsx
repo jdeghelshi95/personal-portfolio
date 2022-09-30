@@ -9,7 +9,13 @@ import getYoutubeVideoId from "../utils/getYoutubeVideoId";
 
 const ModalVideo = dynamic(() => import('react-modal-video'), {ssr: false});
 
-const Portfolio = ({title, thumb, featuredVideo, videoLink}) => {
+const Portfolio = ({title, thumb, featuredVideo, videoLink, link, description}) => {
+//    const [isLink, setLink] = useState()
+//    let url 
+//    url = getRootDomain(link)
+
+   
+   
     const [isOpen, setOpen] = useState(false);
     let channel, videoId;
 
@@ -23,20 +29,27 @@ const Portfolio = ({title, thumb, featuredVideo, videoLink}) => {
             videoId = getVimeoVideoId(videoLink);
         }
     }
-
+   
     return (
         <>
             <div
                 className={`relative duration-400 rounded-md overflow-hidden hover:drop-shadow-portfolio ${featuredVideo ? bgOverlay : ""}`}
             >
-                <Link href="/">
-                    <a>
+                { link && <Link href={link}>
+
+                    <>
+                    <a href={link}>
+                        <h2> {title} </h2>
                         <Image
                             src={thumb}
                             alt={title}
+
                         />
                     </a>
-                </Link>
+                        <p> {description}</p>
+                    </>
+
+                </Link> }
                 {featuredVideo && (
                     <button
                         className="absolute inset-0 text-6xl text-white w-full z-10"
