@@ -14,7 +14,7 @@ const Home = () => {
     useEffect(() => {
         setTimeout(() => {
             setPreloaded(true);
-        }, 2000)
+        }, 3000)
     }, []);
 
     return (
