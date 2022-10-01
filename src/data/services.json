@@ -2,43 +2,43 @@
   {
     "id": 1,
     "title": "Python",
-    "desc": "I brought to just trying that with my boss; I'd get kicked out on the spot. But who knows would be the best",
+    "desc": null,
     "icon": "service-web-design.png"
   },
   {
     "id": 2,
     "title": "React",
-    "desc": "That a brought to just try with my boss; I'd get out the spot. But who know maybe that would be best",
+    "desc": null,
     "icon": "react.png"
   },
   {
     "id": 3,
     "title": "Django",
-    "desc": "Brought a to just try that with my boss; I'd get kicked out on the spot. But who's knows maybe the better",
+    "desc": null,
     "icon": "service-branding.png"
   },
   {
     "id": 4,
     "title": "Node.js",
-    "desc": "Brought a to just try that with my boss; I'd get kicked out on the spot. But who's knows maybe the better",
+    "desc": null,
     "icon": "nodejs2.png"
   },
   {
     "id": 5,
     "title": "JavaScript",
-    "desc": "Brought a to just try that with my boss; I'd get kicked out on the spot. But who's knows maybe the better",
+    "desc": null,
     "icon": "js.gif"
   },
   {
     "id": 6,
     "title": "Tailwind",
-    "desc": "Very fluent with tailwind and have made several projects which are listed below using tailwind on the frontend",
+    "desc": null,
     "icon": "service-branding.png"
   },
   {
     "id": 7,
     "title": "BootStrap",
-    "desc": "Am very familiar with Bootstrap and have made a few projects and several client sites with bootstrap ",
+    "desc": null,
     "icon": "service-branding.png"
   }
 ]
